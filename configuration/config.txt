@@ -1,0 +1,12 @@
+dataset_name:cpsc_2018
+batch_size:32
+num_workers:8
+seed:42
+epochs:10
+folds:10
+use_gpu:1
+resume:0
+model_used:Residual_Conv_GRU
+lr:0.0001
+model_dir:cpsc_2018/models/
+data_dir:cpsc_2018/datas/
